@@ -18,7 +18,7 @@
  * @package WordPress
  */
 
-set_time_limit(300);
+define('WP_ALLOW_REPAIR', true);
 
 // Sendgrid settings - Read in the sendgrid auth from the config //
 define('SENDGRID_USERNAME', $_ENV["SENDGRID_USERNAME"]);
