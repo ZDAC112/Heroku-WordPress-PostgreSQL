@@ -18,6 +18,8 @@
  * @package WordPress
  */
 
+set_time_limit(300);
+
 // Sendgrid settings - Read in the sendgrid auth from the config //
 define('SENDGRID_USERNAME', $_ENV["SENDGRID_USERNAME"]);
 define('SENDGRID_PASSWORD', $_ENV["SENDGRID_PASSWORD"]); 
